@@ -1,0 +1,40 @@
+body {
+    background-image:url("bg.jpg");
+}
+#t1 {
+    border: 1px solid black;
+}
+
+#t2 {
+    border: 2px dotted blue;
+}
+
+#outer {
+    font-size: 90px;
+    background-color:black;
+    color:white;
+}
+
+#inner{
+    font-size: 45px;
+    background-color:white;
+    color:blue;
+    text-align: right;
+}
+a {
+    font-size: 100px;
+    color: red;
+}
+
+#outer1{
+    text-align: right;
+    font-size:30px;
+    color: blue;
+}
+
+#inner1{
+    text-align: left;
+    background-color:black;
+    font-size:89px;
+    color:white;
+}

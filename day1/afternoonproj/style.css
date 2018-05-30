@@ -19,6 +19,14 @@ body{
 p {
     margin-left: 2%
 }
+
+.list-group-item {
+    background-color: transparent !important;
+    //margin-top: 5px;
+    //background:rgba(0,0,0, .05);
+    //background:linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0, .05));
+}
+
 .outer-container {
     //border: 1px solid black;
     margin:auto;
@@ -32,7 +40,7 @@ p {
     align-items: center;
 }
 
-#name {
+.title {
     //border: 1px solid black;
     text-align:center;
     width:100%;

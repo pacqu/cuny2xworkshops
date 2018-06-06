@@ -1,0 +1,52 @@
+body {
+background: linear-gradient(90deg, rgba(94,172,255,1) 0%, rgba(30,102,178,1) 100%);
+color:white;
+}
+
+h5{
+margin-top: 0%;
+font-size: 20px;
+margin-bottom: -5%;
+}
+
+h6{
+  font-size: 14px;
+}
+#container {
+  margin: auto;
+  padding: 0;
+  font-family: sans-serif;
+  width: 90%;
+  height: 100%;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#head {
+  /* border: 1px solid black; */
+  width: 100%;
+  padding-bottom: 2%;
+}
+#todo {
+  /*border: 1px solid black;*/
+  width: 34%;
+  padding-bottom: 2%;
+  height:100%;
+}
+#todone {
+  /* border: 1px solid black; */
+  width: 33%;
+  padding-bottom: 2%;
+  height:100%;
+}
+#tofavorite {
+  /* border: 1px solid black; */
+  width: 33%;
+  padding-bottom: 2%;
+  height:100%;
+}
+.listTitle {
+  /*border: 1px solid black;*/
+  height:80px;
+}

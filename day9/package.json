@@ -1,0 +1,17 @@
+{
+  "name": "nodetutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "dependencies": {
+    "genius-api": "^0.4.1",
+    "node-genius": "^1.1.0",
+    "twit": "^2.2.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

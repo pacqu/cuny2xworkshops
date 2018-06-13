@@ -1,0 +1,39 @@
+body {
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h3{
+  margin-bottom: 1%;
+}
+li{
+  margin-bottom: 2%;
+  color: white;
+}
+#completeContainer{
+  width:50%;
+  height:auto;
+  /* border: 1px solid black; */
+  margin:auto;
+}
+
+#title{
+  width:100%;
+  margin:auto;
+  /* border: 1px solid black; */
+  text-align: center;
+}
+
+#text-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+  margin:auto;
+  /* border: 1px solid black; */
+}
+
+a {
+    color: white;
+}

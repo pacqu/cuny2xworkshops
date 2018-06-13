@@ -1,0 +1,27 @@
+extends layout.pug
+block background
+  |body {background-image: radial-gradient(circle, #2575ec, #00a4ef, #00c4cf, #92dbba, #e3eecb);}
+block title
+  | Teams
+block content
+  form(method="POST" action="/")
+    | Team: 
+    input#teamname(type="text" name="teamname" value="")
+    br
+    | Won?
+    input#teamwon(type="checkbox" name="teamwon" value=false)
+    br
+    input#teamsubmit(type="submit")
+  div
+    h4
+      |Teams That Won
+    ul
+      each team in won
+        li= team.team
+  div
+    h4
+      |Teams That Lost
+    ul
+      each team in lost
+        li= team.team
+  

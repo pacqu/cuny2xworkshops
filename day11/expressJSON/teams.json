@@ -1,0 +1,42 @@
+[
+  {
+    "team": "Yankees",
+    "won": true
+  },
+  {
+    "team": "Mets",
+    "won": false
+  },
+  {
+    "team": "Red Sox",
+    "won": false
+  },
+  {
+    "team": "Diamondbacks",
+    "won": true
+  },
+  {
+    "team": "White Sox",
+    "won": true
+  },
+  {
+    "team": "Dodgers",
+    "won": true
+  },
+  {
+    "team": "Marlins",
+    "won": false
+  },
+  {
+    "team": "Liverpool",
+    "won": false
+  },
+  {
+    "team": "Germany",
+    "won": true
+  },
+  {
+    "team": "Argentina",
+    "won": false
+  }
+]

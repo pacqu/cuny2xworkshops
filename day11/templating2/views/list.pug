@@ -1,0 +1,9 @@
+extends layout.pug
+block background
+  |body {background-image: radial-gradient(circle, #2575ec, #00a4ef, #00c4cf, #92dbba, #e3eecb);}
+block title
+  | Artists
+block content
+  each artist in artists
+    a(href=artist.page)
+      h3=artist.name

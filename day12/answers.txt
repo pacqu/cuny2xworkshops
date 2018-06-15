@@ -1,0 +1,28 @@
+SELECT name FROM jedis WHERE lightsaber_color='red';
+
+DELETE FROM jedis WHERE lightsaber_color='green';
+
+INSERT INTO jedis (name,lightsaber_color,years_training,tempted_by_dark_side) VALUES ('the unknown', 'black', 100, FALSE);
+
+UPDATE jedis SET years_training = years_training*2 WHERE lightsaber_color = 'blue';
+
+DELETE FROM jedis WHERE lightsaber_color='orange';
+
+UPDATE jedis SET lightsaber_color='blue',years_training=years_training*2 WHERE lightsaber_color = 'brown' OR lightsaber_color = 'purple';
+
+DELETE FROM jedis WHERE years_training < 20;
+
+DELETE FROM jedis WHERE name='the unknown';
+
+SELECT * FROM jedis;
+
+id |        name        | lightsaber_color | years_training | tempted_by_dark_side
+----+--------------------+------------------+----------------+----------------------
+21 | Nikki Solo         | yellow           |            100 | f
+ 3 | Andrew Fett        | blue             |             30 | f
+12 | David Maul         | blue             |             38 | f
+14 | Banu-Gon-Jinn      | blue             |             28 | t
+18 | Dmitry Calrissian  | blue             |             40 | t
+27 | Daniyal Calrissian | blue             |             30 | t
+23 | Nishad Sideous     | blue             |             26 | f
+(7 rows)
